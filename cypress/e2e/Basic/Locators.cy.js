@@ -6,6 +6,7 @@ describe('Locator Test', () => {
       'Meet Guru99 – Free Training Tutorials & Video for IT Courses'
     );
   });
+
   it('select option', () => {
     cy.visit('https://www.guru99.com/');
     cy.wait(5000);
